@@ -11,7 +11,7 @@ services:
         command:
             - "--config.file=/etc/prometheus/prometheus.yml"
         depends_on:
-            -snmp-exporter
+            - snmp-exporter
 
     snmp-exporter:
         image: prom/snmp-exporter:latest
