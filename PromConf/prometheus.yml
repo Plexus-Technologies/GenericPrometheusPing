@@ -7,7 +7,6 @@ scrape_configs:
     static_configs:
       targets:
         - 192.168.1.5:161
-        - 192.168.1.1:161
     metrics_path: /snmp
     params:
       auth: [public_v2]
