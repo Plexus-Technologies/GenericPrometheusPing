@@ -1,0 +1,11 @@
+targets:
+  - address: 192.168.1.5
+    module: if_mib
+    version: 2c
+    auth:
+      community: PlexMonitoringDB
+  - address: 192.168.1.1
+    module: if_mib
+    version: 2c
+    auth:
+      community: PlexMonitoringDB
