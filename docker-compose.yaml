@@ -12,6 +12,7 @@ services:
             - "--config.file=/etc/prometheus/prometheus.yml"
         depends_on:
             - snmp-exporter
+            - blackbox-ping
 
     snmp-exporter:
         image: prom/snmp-exporter:latest
@@ -21,3 +22,14 @@ services:
             - "9116:9116"
         volumes:
             - ./SNMP/snmp.yml:/etc/snmp_exporter/snmp.yml
+
+    blackbox-ping:
+        image: prom/blackbox-exporter
+        container_name: blackbox-ping
+        ports:
+            - "9115:9115"
+        restart: unless-stopped
+        command:
+            - "--config.file=/etc/blackbox/blackbox.yml"
+        volumes:
+            - ./BlackboxICMP/blackbox.yml:/etc/blackbox/blackbox.yml
