@@ -1272,8 +1272,6 @@ modules:
       indexes:
       - labelname: ifIndex
         type: gauge
-      - labelname: ifRcvAddressAddress
-        type: PhysAddress48
       lookups:
       - labels:
         - ifIndex
@@ -1301,8 +1299,6 @@ modules:
       indexes:
       - labelname: ifIndex
         type: gauge
-      - labelname: ifRcvAddressAddress
-        type: PhysAddress48
       lookups:
       - labels:
         - ifIndex
