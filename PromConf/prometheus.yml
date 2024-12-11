@@ -8,10 +8,10 @@ scrape_configs:
       - targets:
         - 192.168.1.5:161
           labels:
-            instance: 'Router 140'
+            environment: '140 router'
         - 192.168.1.1:161
           labels:
-            instance: 'Router 138'
+            environment: '138 router'
     metrics_path: /snmp
     params:
       auth: [public_v2]
@@ -19,6 +19,8 @@ scrape_configs:
     relabel_configs:
       - source_labels: [__address__]
         target_label: __param_target
+      - source_labels: [__param_target]
+        target_label: instance
       - target_label: __address__
         replacement: 192.168.1.46:9116
 
