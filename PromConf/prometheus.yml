@@ -5,8 +5,12 @@ global:
 scrape_configs:
   - job_name: 'snmp'
     static_configs:
-      - targets:
-        - 192.168.1.5:161
+      - targets: ['192.168.1.5:161']
+        labels:
+          name: '140 Plexus Router'
+      - targets: ['192.168.1.1:161']
+        labels:
+          name: '138 Plexus Router'
     metrics_path: /snmp
     params:
       auth: [public_v2]
@@ -24,9 +28,27 @@ scrape_configs:
     params:
       module: [icmp_ipv4]
     static_configs:
-      - targets:
-        - 12.17.38.9
-        - 24.129.159.118
+      - targets: ['24.192.107.129']
+        labels:
+          name: 'AMA-D Fiber GW'
+      - targets: ['97.79.22.65']
+        labels:
+          name: 'AMA-D Coax GW'
+      - targets: ['207.98.143.1']
+        labels:
+          name: 'AMA-L WoW GW'
+      - targets: ['107.144.137.49']
+        labels:
+          name: 'AMA-L Spectrum GW'
+      - targets: ['67.78.206.1']
+        labels:
+          name: 'BSS GW'
+      - targets: ['12.55.137.81']
+        labels:
+          name: 'JMX Alton AT&T'
+      - targets: ['35.134.174.89']
+        labels:
+          name: 'JMX Alton Spectrum'
     relabel_configs:
       - source_labels: [__address__]
         target_label: __param_target
