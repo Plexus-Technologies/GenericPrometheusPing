@@ -1264,56 +1264,6 @@ modules:
         labelname: ifName
         oid: 1.3.6.1.2.1.31.1.1.1.1
         type: DisplayString
-    - name: ifRcvAddressStatus
-      oid: 1.3.6.1.2.1.31.1.4.1.2
-      type: gauge
-      help: This object is used to create and delete rows in the ifRcvAddressTable.
-        - 1.3.6.1.2.1.31.1.4.1.2
-      indexes:
-      - labelname: ifIndex
-        type: gauge
-      lookups:
-      - labels:
-        - ifIndex
-        labelname: ifAlias
-        oid: 1.3.6.1.2.1.31.1.1.1.18
-        type: DisplayString
-      - labels:
-        - ifIndex
-        labelname: ifName
-        oid: 1.3.6.1.2.1.31.1.1.1.1
-        type: DisplayString
-      enum_values:
-        1: active
-        2: notInService
-        3: notReady
-        4: createAndGo
-        5: createAndWait
-        6: destroy
-    - name: ifRcvAddressType
-      oid: 1.3.6.1.2.1.31.1.4.1.3
-      type: gauge
-      help: This object has the value nonVolatile(3) for those entries in the table
-        which are valid and will not be deleted by the next restart of the managed
-        system - 1.3.6.1.2.1.31.1.4.1.3
-      indexes:
-      - labelname: ifIndex
-        type: gauge
-      lookups:
-      - labels:
-        - ifIndex
-        labelname: ifAlias
-        oid: 1.3.6.1.2.1.31.1.1.1.18
-        type: DisplayString
-      - labels:
-        - ifIndex
-        labelname: ifName
-        oid: 1.3.6.1.2.1.31.1.1.1.1
-        type: DisplayString
-      enum_values:
-        1: other
-        2: volatile
-        3: nonVolatile
     - name: ifTableLastChange
       oid: 1.3.6.1.2.1.31.1.5
       type: gauge
