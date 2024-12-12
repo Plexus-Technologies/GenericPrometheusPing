@@ -1,6 +1,6 @@
 global:
-  scrape_interval: 1s
-  evaluation_interval: 1s
+  scrape_interval: 10s
+  evaluation_interval: 10s
 
 scrape_configs:
   - job_name: 'snmp'
@@ -49,6 +49,60 @@ scrape_configs:
       - targets: ['35.134.174.89']
         labels:
           name: 'JMX Alton Spectrum'
+      - targets: ['96.81.254.214']
+        labels:
+          name: 'JMX Clifton Spectrum'
+      - targets: ['12.138.159.177']
+        labels:
+          name: 'JMX Danville AT&T'
+      - targets: ['47.47.11.225']
+        labels:
+          name: 'JMX Edwardsville Spectrum'
+      - targets: ['32.142.29.69']
+        labels:
+          name: 'JMX Edwardsville AT&T'
+      - targets: ['96.65.161.38']
+        labels:
+          name: 'LTC Power Miami'
+      - targets: ['47.206.63.84']
+        labels:
+          name: 'Modern Edge Title'
+      - targets: ['12.41.111.161']
+        labels:
+          name: 'North Beach AT&T'
+      - targets: ['173.162.66.198']
+        labels:
+          name: 'North Beach Comcast'
+      - targets: ['12.17.38.1']
+        labels:
+          name: 'North Lake AT&T'
+      - targets: ['50.253.165.134']
+        labels:
+          name: 'North Lake Comcast'
+      - targets: ['38.48.93.202']
+        labels:
+          name: 'Palmetto Fiber'
+      - targets: ['173.12.102.105']
+        labels:
+          name: 'Palmetto Comcast'
+      - targets: ['173.12.86.150']
+        labels:
+          name: 'Palms Comcast'
+      - targets: ['12.17.38.81']
+        labels:
+          name: 'Palms AT&T'
+      - targets: ['12.16.81.73']
+        labels:
+          name: 'Terraces of LW AT&T'
+      - targets: ['173.12.76.110']
+        labels:
+          name: 'Terraces of LW Comcast'
+      - targets: ['173.162.67.14']
+        labels:
+          name: 'Unity Comcast'
+      - targets: ['12.17.3.57']
+        labels:
+          name: 'Unity AT&T'
     relabel_configs:
       - source_labels: [__address__]
         target_label: __param_target
