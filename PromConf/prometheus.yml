@@ -103,6 +103,109 @@ scrape_configs:
       - targets: ['12.17.3.57']
         labels:
           name: 'Unity AT&T GW'
+      - targets: ['47.206.223.179']
+        labels:
+          name: 'Ocana pfSense Pri'
+      - targets: ['97.76.172.165']
+        labels:
+          name: 'Oxley GW'
+      - targets: ['24.129.159.117']
+        labels:
+          name: 'Park GW'
+      - targets: ['synology.pjcallaghan.com']
+        labels:
+          name: 'PJC pfSense Pri'
+      - targets: ['12.17.38.9']
+        labels:
+          name: 'Ft. Lauderdale AT&T GW'
+      - targets: ['173.9.176.190']
+        labels:
+          name: 'Ft. Lauderdale Comcast GW'
+      - targets: ['12.49.103.193']
+        labels:
+          name: 'Glades W AT&T GW'
+      - targets: ['71.26.96.22']
+        labels:
+          name: 'Glades W Comcast GW'
+      - targets: ['172.109.189.145']
+        labels:
+          name: 'Greenbriar Frontier GW'
+      - targets: ['144.129.103.169']
+        labels:
+          name: 'Greenbriar Spectrum GW'
+      - targets: ['12.17.2.209']
+        labels:
+          name: 'Kendall AT&T GW'
+      - targets: ['75.147.222.230']
+        labels:
+          name: 'Kendall Comcast GW'
+      - targets: ['63.209.147.81']
+        labels:
+          name: 'Lehigh Lumen GW'
+      - targets: ['173.165.223.54']
+        labels:
+          name: 'Lehigh Comcast GW'
+      - targets: ['96.79.130.142']
+        labels:
+          name: 'Sunset Lake Comcast GW'
+      - targets: ['172.109.189.137']
+        labels:
+          name: 'Sunset Lake Frontier GW'
+      - targets: ['70.88.56.62']
+        labels:
+          name: 'Village Place Comcast GW'
+      - targets: ['4.79.146.17']
+        labels:
+          name: 'Village Place Lumen GW'
+      - targets: ['12.233.132.25']
+        labels:
+          name: 'Wilton Manors AT&T GW'
+      - targets: ['173.162.66.254']
+        labels:
+          name: 'Wilton Manors Comcast GW'
+      - targets: ['63.46.16.30']
+        labels:
+          name: 'GoldenAge Verizon GW'
+      - targets: ['156.19.46.113']
+        labels:
+          name: 'GoldenAge Spectrotel GW'
+      - targets: ['63.46.16.28']
+        labels:
+          name: 'Inman Verizon GW'
+      - targets: ['156.19.46.73']
+        labels:
+          name: 'Inman Spectrotel GW'
+      - targets: ['64.234.87.112']
+        labels:
+          name: 'Seneca SonicWall Pri'
+      - targets: ['166.241.25.217']
+        labels:
+          name: 'Seneca Verizon GW'
+      - targets: ['24.106.190.177']
+        labels:
+          name: 'Sumter Spectrum GW'
+      - targets: ['70.61.209.94']
+        labels:
+          name: 'Sumter Vyve GW'
+      - targets: ['24.173.137.61']
+        labels:
+          name: 'Rooth Spectrum GW'
+      - targets: ['24.227.45.93']
+        labels:
+          name: 'SAI Spectrum GW'
+      - targets: ['96.58.233.225']
+        labels:
+          name: 'TRF Clearwater Spectrum GW'
+      - targets: ['98.100.81.217']
+        labels:
+          name: 'TRF Urbana Spectrum GW'
+      - targets: ['45.3.205.97']
+        labels:
+          name: 'Tier 1 Title Spectrum GW'
+#  Use as copy-paste template for more targets
+#      - targets: ['']
+#        labels:
+#          name: ''
     relabel_configs:
       - source_labels: [__address__]
         target_label: __param_target
