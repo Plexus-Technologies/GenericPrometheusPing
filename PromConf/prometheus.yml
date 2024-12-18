@@ -163,24 +163,24 @@ scrape_configs:
       - targets: ['173.162.66.254']
         labels:
           name: 'Wilton Manors Comcast GW'
-      - targets: ['63.46.16.30']
-        labels:
-          name: 'GoldenAge Verizon GW'
+#      - targets: ['63.46.16.30']
+#        labels:
+#          name: 'GoldenAge Verizon GW'
       - targets: ['156.19.46.113']
         labels:
           name: 'GoldenAge Spectrotel GW'
-      - targets: ['63.46.16.28']
-        labels:
-          name: 'Inman Verizon GW'
+#      - targets: ['63.46.16.28']
+#        labels:
+#          name: 'Inman Verizon GW'
       - targets: ['156.19.46.73']
         labels:
           name: 'Inman Spectrotel GW'
       - targets: ['64.234.87.112']
         labels:
           name: 'Seneca SonicWall Pri'
-      - targets: ['166.241.25.217']
-        labels:
-          name: 'Seneca Verizon GW'
+#      - targets: ['166.241.25.217']
+#        labels:
+#          name: 'Seneca Verizon GW'
       - targets: ['24.106.190.177']
         labels:
           name: 'Sumter Spectrum GW'
