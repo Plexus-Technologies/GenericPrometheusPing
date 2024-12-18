@@ -45,64 +45,64 @@ scrape_configs:
           name: 'BSS GW'
       - targets: ['12.55.137.81']
         labels:
-          name: 'JMX Alton AT&T'
+          name: 'JMX Alton AT&T GW'
       - targets: ['35.134.174.89']
         labels:
-          name: 'JMX Alton Spectrum'
+          name: 'JMX Alton Spectrum GW'
       - targets: ['96.81.254.214']
         labels:
-          name: 'JMX Clifton Spectrum'
+          name: 'JMX Clifton Spectrum GW'
       - targets: ['12.138.159.177']
         labels:
-          name: 'JMX Danville AT&T'
+          name: 'JMX Danville AT&T GW'
       - targets: ['47.47.11.225']
         labels:
-          name: 'JMX Edwardsville Spectrum'
+          name: 'JMX Edwardsville Spectrum GW'
       - targets: ['32.142.29.69']
         labels:
-          name: 'JMX Edwardsville AT&T'
+          name: 'JMX Edwardsville AT&T GW'
       - targets: ['96.65.161.38']
         labels:
-          name: 'LTC Power Miami'
+          name: 'LTC Power Miami GW'
       - targets: ['47.206.63.84']
         labels:
-          name: 'Modern Edge Title'
+          name: 'Modern Edge Title GW'
       - targets: ['12.41.111.161']
         labels:
-          name: 'North Beach AT&T'
+          name: 'North Beach AT&T GW'
       - targets: ['173.162.66.198']
         labels:
-          name: 'North Beach Comcast'
+          name: 'North Beach Comcast GW'
       - targets: ['12.17.38.1']
         labels:
-          name: 'North Lake AT&T'
+          name: 'North Lake AT&T GW'
       - targets: ['50.253.165.134']
         labels:
-          name: 'North Lake Comcast'
+          name: 'North Lake Comcast GW'
       - targets: ['38.48.93.201']
         labels:
-          name: 'Palmetto Fiber'
+          name: 'Palmetto Fiber GW'
       - targets: ['173.12.102.110']
         labels:
-          name: 'Palmetto Comcast'
+          name: 'Palmetto Comcast GW'
       - targets: ['173.12.86.150']
         labels:
-          name: 'Palms Comcast'
+          name: 'Palms Comcast GW'
       - targets: ['12.17.38.81']
         labels:
-          name: 'Palms AT&T'
+          name: 'Palms AT&T GW'
       - targets: ['12.16.81.73']
         labels:
-          name: 'Terraces of LW AT&T'
+          name: 'Terraces of LW AT&T GW'
       - targets: ['173.12.76.110']
         labels:
-          name: 'Terraces of LW Comcast'
+          name: 'Terraces of LW Comcast GW'
       - targets: ['173.162.67.14']
         labels:
-          name: 'Unity Comcast'
+          name: 'Unity Comcast GW'
       - targets: ['12.17.3.57']
         labels:
-          name: 'Unity AT&T'
+          name: 'Unity AT&T GW'
     relabel_configs:
       - source_labels: [__address__]
         target_label: __param_target
