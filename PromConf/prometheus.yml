@@ -69,40 +69,40 @@ scrape_configs:
           name: 'Modern Edge Title GW'
       - targets: ['12.41.111.161']
         labels:
-          name: 'North Beach AT&T GW'
+          name: 'MRR North Beach AT&T GW'
       - targets: ['173.162.66.198']
         labels:
-          name: 'North Beach Comcast GW'
+          name: 'MRR North Beach Comcast GW'
       - targets: ['12.17.38.1']
         labels:
-          name: 'North Lake AT&T GW'
+          name: 'MRR North Lake AT&T GW'
       - targets: ['50.253.165.134']
         labels:
-          name: 'North Lake Comcast GW'
+          name: 'MRR North Lake Comcast GW'
       - targets: ['38.48.93.201']
         labels:
-          name: 'Palmetto Fiber GW'
+          name: 'MRR Palmetto Fiber GW'
       - targets: ['173.12.102.110']
         labels:
-          name: 'Palmetto Comcast GW'
+          name: 'MRR Palmetto Comcast GW'
       - targets: ['173.12.86.150']
         labels:
-          name: 'Palms Comcast GW'
+          name: 'MRR Palms Comcast GW'
       - targets: ['12.17.38.81']
         labels:
-          name: 'Palms AT&T GW'
+          name: 'MRR Palms AT&T GW'
       - targets: ['12.16.81.73']
         labels:
-          name: 'Terraces of LW AT&T GW'
+          name: 'MRR Terraces of LW AT&T GW'
       - targets: ['173.12.76.110']
         labels:
-          name: 'Terraces of LW Comcast GW'
+          name: 'MRR Terraces of LW Comcast GW'
       - targets: ['173.162.67.14']
         labels:
-          name: 'Unity Comcast GW'
+          name: 'MRR Unity Comcast GW'
       - targets: ['12.17.3.57']
         labels:
-          name: 'Unity AT&T GW'
+          name: 'MRR Unity AT&T GW'
       - targets: ['47.206.223.179']
         labels:
           name: 'Ocana pfSense Pri'
@@ -117,76 +117,76 @@ scrape_configs:
           name: 'PJC pfSense Pri'
       - targets: ['12.17.38.9']
         labels:
-          name: 'Ft. Lauderdale AT&T GW'
+          name: 'QTM Ft. Lauderdale AT&T GW'
       - targets: ['173.9.176.190']
         labels:
-          name: 'Ft. Lauderdale Comcast GW'
+          name: 'QTM Ft. Lauderdale Comcast GW'
       - targets: ['12.49.103.193']
         labels:
-          name: 'Glades W AT&T GW'
+          name: 'QTM Glades W AT&T GW'
       - targets: ['71.26.96.22']
         labels:
-          name: 'Glades W Comcast GW'
+          name: 'QTM Glades W Comcast GW'
       - targets: ['172.109.189.145']
         labels:
-          name: 'Greenbriar Frontier GW'
+          name: 'QTM Greenbriar Frontier GW'
       - targets: ['144.129.103.169']
         labels:
-          name: 'Greenbriar Spectrum GW'
+          name: 'QTM Greenbriar Spectrum GW'
       - targets: ['12.17.2.209']
         labels:
-          name: 'Kendall AT&T GW'
+          name: 'QTM Kendall AT&T GW'
       - targets: ['75.147.222.230']
         labels:
-          name: 'Kendall Comcast GW'
+          name: 'QTM Kendall Comcast GW'
       - targets: ['63.209.147.81']
         labels:
-          name: 'Lehigh Lumen GW'
+          name: 'QTM Lehigh Lumen GW'
       - targets: ['173.165.223.54']
         labels:
-          name: 'Lehigh Comcast GW'
+          name: 'QTM Lehigh Comcast GW'
       - targets: ['96.79.130.142']
         labels:
-          name: 'Sunset Lake Comcast GW'
+          name: 'QTM Sunset Lake Comcast GW'
       - targets: ['172.109.189.137']
         labels:
-          name: 'Sunset Lake Frontier GW'
+          name: 'QTM Sunset Lake Frontier GW'
       - targets: ['70.88.56.62']
         labels:
-          name: 'Village Place Comcast GW'
+          name: 'QTM Village Place Comcast GW'
       - targets: ['4.79.146.17']
         labels:
-          name: 'Village Place Lumen GW'
+          name: 'QTM Village Place Lumen GW'
       - targets: ['12.233.132.25']
         labels:
-          name: 'Wilton Manors AT&T GW'
+          name: 'QTM Wilton Manors AT&T GW'
       - targets: ['173.162.66.254']
         labels:
-          name: 'Wilton Manors Comcast GW'
+          name: 'QTM Wilton Manors Comcast GW'
 #      - targets: ['63.46.16.30']
 #        labels:
-#          name: 'GoldenAge Verizon GW'
+#          name: 'RLNT GoldenAge Verizon GW'
       - targets: ['156.19.46.113']
         labels:
-          name: 'GoldenAge Spectrotel GW'
+          name: 'RLNT GoldenAge Spectrotel GW'
 #      - targets: ['63.46.16.28']
 #        labels:
-#          name: 'Inman Verizon GW'
+#          name: 'RLNT Inman Verizon GW'
       - targets: ['156.19.46.73']
         labels:
-          name: 'Inman Spectrotel GW'
+          name: 'RLNT Inman Spectrotel GW'
       - targets: ['64.234.87.112']
         labels:
-          name: 'Seneca SonicWall Pri'
+          name: 'RLNT Seneca SonicWall Pri'
 #      - targets: ['166.241.25.217']
 #        labels:
-#          name: 'Seneca Verizon GW'
+#          name: 'RLNT Seneca Verizon GW'
       - targets: ['24.106.190.177']
         labels:
-          name: 'Sumter Spectrum GW'
-      - targets: ['70.61.209.94']
+          name: 'RLNT Sumter Spectrum GW'
+      - targets: ['70.61.209.93']
         labels:
-          name: 'Sumter Vyve GW'
+          name: 'RLNT Sumter Vyve GW'
       - targets: ['24.173.137.61']
         labels:
           name: 'Rooth Spectrum GW'
