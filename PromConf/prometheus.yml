@@ -43,7 +43,7 @@ scrape_configs:
       - targets: ['67.78.206.1']
         labels:
           name: 'BSS GW'
-      - targets: ['12.55.137.81']
+      - targets: ['12.1.2.145']
         labels:
           name: 'JMX Alton AT&T GW'
       - targets: ['35.134.174.89']
