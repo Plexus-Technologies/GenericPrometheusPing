@@ -109,9 +109,9 @@ scrape_configs:
       - targets: ['97.76.172.165']
         labels:
           name: 'Oxley GW'
-      - targets: ['24.129.159.117']
-        labels:
-          name: 'Park GW'
+#      - targets: ['24.129.159.117']
+#        labels:
+#          name: 'Park GW'
       - targets: ['synology.pjcallaghan.com']
         labels:
           name: 'PJC pfSense Pri'
