@@ -40,6 +40,9 @@ scrape_configs:
       - targets: ['107.144.137.49']
         labels:
           name: 'AMA-L Spectrum GW'
+      - targets: ['47.207.26.222']
+        labels:
+          name: 'Axiom Router'
       - targets: ['67.78.206.1']
         labels:
           name: 'BSS GW'
