@@ -61,7 +61,7 @@ scrape_configs:
       - targets: ['47.47.11.225']
         labels:
           name: 'JMX Edwardsville Spectrum GW'
-      - targets: ['32.142.29.69']
+      - targets: ['209.215.212.1']
         labels:
           name: 'JMX Edwardsville AT&T GW'
       - targets: ['96.65.161.38']
