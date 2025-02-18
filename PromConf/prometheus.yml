@@ -46,6 +46,10 @@ scrape_configs:
       - targets: ['67.78.206.1']
         labels:
           name: 'BSS GW'
+      - targets: ['71.40.167.57']
+        labels:
+          name: 'Big C Steel GW'
+      # Credence    
       - targets: ['12.1.2.145'] # Different from what router sees, address is from Bizcom
         labels:
           name: 'JMX Alton AT&T GW'
@@ -67,6 +71,9 @@ scrape_configs:
       - targets: ['96.65.161.38']
         labels:
           name: 'LTC Power Miami GW'
+      - targets: ['medbest.ddns.net']
+        labels:
+          name: 'Medbest pfS'
       - targets: ['47.206.63.84']
         labels:
           name: 'Modern Edge Title GW'
@@ -115,6 +122,10 @@ scrape_configs:
 #      - targets: ['24.129.159.117']
 #        labels:
 #          name: 'Park GW'
+      #PenServeCo
+      - targets: ['pgdlaw.ddns.net']
+        labels:
+          name: 'PGD Law pfS'
       - targets: ['synology.pjcallaghan.com']
         labels:
           name: 'PJC pfSense Pri'
