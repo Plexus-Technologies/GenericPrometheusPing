@@ -210,7 +210,7 @@ scrape_configs:
       - targets: ['96.58.233.225']
         labels:
           name: 'TRF Clearwater Spectrum GW'
-      - targets: ['98.58.233.225']
+      - targets: ['98.100.81.217']
         labels:
           name: 'TRF Urbana Spectrum GW'
       - targets: ['45.3.205.97']
