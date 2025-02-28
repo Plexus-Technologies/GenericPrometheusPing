@@ -216,6 +216,13 @@ scrape_configs:
       - targets: ['45.3.205.97']
         labels:
           name: 'Tier 1 Title Spectrum GW'
+#  To be removed later:
+      - targets: ['67.78.9.17']
+        labels:
+          name: 'KGS Coax GW'
+      - targets: ['72.187.242.189']
+        labels:
+          name: 'KGS Fiber GW'
 #  Use as copy-paste template for more targets
 #      - targets: ['']
 #        labels:
