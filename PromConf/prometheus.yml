@@ -198,9 +198,9 @@ scrape_configs:
       - targets: ['24.106.190.177']
         labels:
           name: 'RLNT Sumter Spectrum GW'
-      - targets: ['70.61.209.93']
+      - targets: ['50.36.33.113']
         labels:
-          name: 'RLNT Sumter Vyve GW'
+          name: 'RLNT Sumter Frontier GW'
       - targets: ['24.173.137.61']
         labels:
           name: 'Rooth Spectrum GW'
