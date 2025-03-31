@@ -80,7 +80,7 @@ scrape_configs:
       - targets: ['12.41.111.161']
         labels:
           name: 'MRR North Beach AT&T GW'
-      - targets: ['173.162.66.198']
+      - targets: ['173.162.108.174']
         labels:
           name: 'MRR North Beach Comcast GW'
       - targets: ['12.17.38.1']
@@ -92,10 +92,10 @@ scrape_configs:
       - targets: ['38.48.93.201']
         labels:
           name: 'MRR Palmetto Fiber GW'
-      - targets: ['173.12.102.110']
+      - targets: ['173.162.124.118']
         labels:
           name: 'MRR Palmetto Comcast GW'
-      - targets: ['173.12.86.150']
+      - targets: ['50.185.197.22']
         labels:
           name: 'MRR Palms Comcast GW'
       - targets: ['12.17.38.81']
@@ -104,10 +104,10 @@ scrape_configs:
       - targets: ['12.16.81.73']
         labels:
           name: 'MRR Terraces of LW AT&T GW'
-      - targets: ['173.12.76.110']
+      - targets: ['173.162.82.206']
         labels:
           name: 'MRR Terraces of LW Comcast GW'
-      - targets: ['173.162.67.14']
+      - targets: ['50.185.169.78']
         labels:
           name: 'MRR Unity Comcast GW'
       - targets: ['12.17.3.57']
@@ -159,7 +159,7 @@ scrape_configs:
       - targets: ['173.165.223.54']
         labels:
           name: 'QTM Lehigh Comcast GW'
-      - targets: ['96.79.130.142']
+      - targets: ['96.79.133.22']
         labels:
           name: 'QTM Sunset Lake Comcast GW'
       - targets: ['172.109.189.137']
