@@ -174,7 +174,7 @@ scrape_configs:
       - targets: ['12.233.132.25']
         labels:
           name: 'QTM Wilton Manors AT&T GW'
-      - targets: ['173.162.66.254']
+      - targets: ['71.27.230.206']
         labels:
           name: 'QTM Wilton Manors Comcast GW'
 #      - targets: ['63.46.16.30']
