@@ -183,9 +183,9 @@ scrape_configs:
       - targets: ['156.19.46.113']
         labels:
           name: 'RLNT GoldenAge Spectrotel GW'
-#      - targets: ['63.46.16.28']
-#        labels:
-#          name: 'RLNT Inman Verizon GW'
+      - targets: ['63.46.16.28']
+        labels:
+          name: 'RLNT Inman Verizon GW'
       - targets: ['156.19.46.73']
         labels:
           name: 'RLNT Inman Spectrotel GW'
@@ -219,13 +219,13 @@ scrape_configs:
       - targets: ['45.3.205.97']
         labels:
           name: 'Tier 1 Title Spectrum GW'
-#  To be removed later:
-      - targets: ['67.78.9.17']
-        labels:
-          name: 'KGS Coax GW'
-      - targets: ['72.187.242.189']
-        labels:
-          name: 'KGS Fiber GW'
+##  To be removed later:
+##      - targets: ['67.78.9.17']
+##        labels:
+##          name: 'KGS Coax GW'
+##      - targets: ['72.187.242.189']
+##        labels:
+##          name: 'KGS Fiber GW'
 #  Use as copy-paste template for more targets
 #      - targets: ['']
 #        labels:
