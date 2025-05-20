@@ -183,7 +183,7 @@ scrape_configs:
       - targets: ['156.19.46.113']
         labels:
           name: 'RLNT GoldenAge Spectrotel GW'
-      - targets: ['63.46.16.28']
+      - targets: ['63.46.16.27']
         labels:
           name: 'RLNT Inman Verizon GW'
       - targets: ['156.19.46.73']
