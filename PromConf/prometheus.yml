@@ -21,7 +21,7 @@ scrape_configs:
       - source_labels: [__param_target]
         target_label: instance
       - target_label: __address__
-        replacement: 192.168.1.46:9116
+        replacement: 10.50.10.201:9116
 
   - job_name: blackbox-ping
     metrics_path: /probe
@@ -236,4 +236,4 @@ scrape_configs:
       - source_labels: [__param_target]
         target_label: instance
       - target_label: __address__
-        replacement: 192.168.1.46:9115
+        replacement: 10.50.10.201:9115
