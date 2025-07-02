@@ -36,10 +36,10 @@ scrape_configs:
           name: 'AMA-D Coax GW'
       - targets: ['207.98.143.1']
         labels:
-          name: 'AMA-L WoW GW'
-      - targets: ['107.144.137.49']
+          name: 'AMA-L Coax GW'
+      - targets: ['24.96.218.81']
         labels:
-          name: 'AMA-L Spectrum GW'
+          name: 'AMA-L Fiber GW'
       - targets: ['47.207.26.222']
         labels:
           name: 'Axiom Router'
@@ -49,7 +49,12 @@ scrape_configs:
       - targets: ['71.40.167.57']
         labels:
           name: 'Big C Steel GW'
-      # Credence    
+      - targets: ['credenceconst.ddns.net']
+        labels:
+          name: 'Credence Const pfS'
+      - targets: ['credencedev.ddns.net']
+        labels:
+          name: 'Credence Dev pfS'
       - targets: ['12.1.2.145'] # Different from what router sees, address is from Bizcom
         labels:
           name: 'JMX Alton AT&T GW'
@@ -119,9 +124,6 @@ scrape_configs:
       - targets: ['97.76.172.165']
         labels:
           name: 'Oxley GW'
-#      - targets: ['24.129.159.117']
-#        labels:
-#          name: 'Park GW'
       #PenServeCo
       - targets: ['pgdlaw.ddns.net']
         labels:
@@ -219,12 +221,6 @@ scrape_configs:
       - targets: ['45.3.205.97']
         labels:
           name: 'Tier 1 Title Spectrum GW'
-##  To be removed later:
-##      - targets: ['67.78.9.17']
-##        labels:
-##          name: 'KGS Coax GW'
-##      - targets: ['72.187.242.189']
-##        labels:
 ##          name: 'KGS Fiber GW'
 #  Use as copy-paste template for more targets
 #      - targets: ['']
