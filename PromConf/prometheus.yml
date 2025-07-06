@@ -221,6 +221,9 @@ scrape_configs:
       - targets: ['45.3.205.97']
         labels:
           name: 'Tier 1 Title Spectrum GW'
+      - targets: ['prince-of-peace.ddns.net']
+        labels:
+          name: 'PoP Largo pfS'
 ##          name: 'KGS Fiber GW'
 #  Use as copy-paste template for more targets
 #      - targets: ['']
