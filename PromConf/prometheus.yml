@@ -224,6 +224,12 @@ scrape_configs:
       - targets: ['prince-of-peace.ddns.net']
         labels:
           name: 'PoP Largo pfS'
+      - targets: ['75.13.66.30']
+        labels:
+          name: 'Reliant Corp AT&T GW'
+      - targets: ['50.241.234.158']
+        labels:
+          name: 'Reliant Corp Comcast GW'
 ##          name: 'KGS Fiber GW'
 #  Use as copy-paste template for more targets
 #      - targets: ['']
