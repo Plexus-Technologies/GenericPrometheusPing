@@ -230,6 +230,9 @@ scrape_configs:
       - targets: ['50.241.234.158']
         labels:
           name: 'Reliant Corp Comcast GW'
+      - targets: ['107.144.45.89']
+        labels:
+          name: 'SAMS IV GW'
 ##          name: 'KGS Fiber GW'
 #  Use as copy-paste template for more targets
 #      - targets: ['']
