@@ -10,19 +10,9 @@ services:
             - ./PromConf/prometheus.yml:/etc/prometheus/prometheus.yml
         command:
             - "--config.file=/etc/prometheus/prometheus.yml"
-            - "--storage.tsdb.retention.time=1y"
+            - "--storage.tsdb.retention.time=4w"
         depends_on:
-            - snmp-exporter
             - blackbox-ping
-
-    snmp-exporter:
-        image: prom/snmp-exporter:latest
-        container_name: snmp-exporter
-        restart: unless-stopped
-        ports:
-            - "9116:9116"
-        volumes:
-            - ./SNMP/snmp.yml:/etc/snmp_exporter/snmp.yml
 
     blackbox-ping:
         image: prom/blackbox-exporter
